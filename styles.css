@@ -1,0 +1,89 @@
+body{
+    background-image: url("./images/background.png");
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.nav-link{
+    margin-left: 4rem;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-link > a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 3rem;
+}
+
+
+.cart img{
+    width:50px;
+}
+
+/* Main Styles */
+
+main{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9rem;
+    height: 80vh;
+}
+
+.home-left{
+    margin-top: -9rem;
+}
+.home-left > button{
+    padding: 0.9rem 3rem;
+    border-radius: 6px;
+    border: none;
+    background-image: linear-gradient(to right, #8065f6 10%, #fd85f7 51%);
+    color: white;
+    font-weight: 800;
+}
+
+.home-left > h1{
+    font-size: 3rem;
+}
+.home-left > p{
+    font-size: 20px;
+}
+
+.arrows{
+    margin-top: 2rem;
+ display: flex;
+ gap: 3rem;
+}
+
+.arrows img{
+    width: 50px;
+}
+
+.social{
+    margin-left: 50px;
+    display: flex;
+    gap: 2rem;
+    transform-origin: 0 0;
+  transform: rotate(-90deg);
+}
