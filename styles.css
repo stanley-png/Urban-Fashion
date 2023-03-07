@@ -87,3 +87,38 @@ main{
     transform-origin: 0 0;
   transform: rotate(-90deg);
 }
+
+
+
+footer{
+    background-color: rgb(2, 70, 70);
+    padding: 3rem;
+}
+
+.footer-section{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footer-section__left{
+    width: 30%;
+    font-size: 19px;
+    line-height: 30px;
+}
+.footer-section__center a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-section__right span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+}
