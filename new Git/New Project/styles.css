@@ -1,0 +1,27 @@
+.header{
+    text-align: center;
+    color: rgb(129, 7, 27);
+}
+
+.main-section{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+}
+
+.main-section > section{
+ text-align: center;
+ box-shadow: 1px 0.5px 0 2px rgb(197, 191, 191);
+ width: 300px;
+ padding: 1rem;
+ border-radius: 10px;
+}
+
+.main-section > section > img{
+    background-color: rgb(219, 179, 179);
+    padding: 1rem;
+    border-radius: 50%;
+}
